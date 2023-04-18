@@ -1,0 +1,125 @@
+@media(max-width: 425px) {
+
+    /* phần navbar  */
+    .nav-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .visually-hidden-title {
+        display: none;
+    }
+
+    ol,
+    ul {
+        padding-left: 0;
+    }
+
+
+    #navbar {
+        display: inline-block;
+    }
+
+    .border-button {
+        border: none;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border: none;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        padding: 0.5rem;
+
+    }
+
+    /* Phần about */
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #target,
+    #personal-info {
+        padding: 3rem 0.3rem;
+        text-align: start;
+    }
+
+    #target h1,
+    #personal-info h1 {
+        margin-bottom: 2rem;
+    }
+
+    /* Phần kĩ năng */
+    .job-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* phần Chứng chỉ  */
+    .cert-detail {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cert-- {
+        padding-left: 0;
+        padding-top: 2rem;
+        border-left: none;
+        border-top: 1px solid #eaaaaa;
+        border-bottom: 1px solid #eaaaaa;
+
+    }
+
+    .cert- {
+        padding-top: 1rem;
+        border-top: none;
+    }
+
+    /* Phần project */
+    #certificate h1,
+    #project h1 {
+        margin-bottom: 3rem;
+    }
+
+    .projects {
+        grid-template-rows: auto;
+    }
+
+    .project-adj {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .cert-info {
+        flex-direction: column;
+    }
+
+    .cert-info li {
+        list-style-type: "-";
+    }
+
+    .project-name {
+        margin-bottom: 0;
+    }
+
+    .prjct-ad {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    /* Ẩn phần chữ ở footer */
+    .d-sm-hidden {
+        display: none;
+    }
+
+
+
+}

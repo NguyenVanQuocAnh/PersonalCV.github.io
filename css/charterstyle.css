@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.title {
+    border-bottom: 1px solid black;
+}
+
+.goal-underline {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.square {
+    width: 55px;
+    height: 55px;
+}
+
+.a:link,
+.a:visited,
+a {
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #444 !important;
+}

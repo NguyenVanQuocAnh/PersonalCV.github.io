@@ -1,0 +1,53 @@
+@media(max-width: 768px) {
+
+    /* phần navbar  */
+    .nav-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .visually-hidden-title {
+        display: none;
+    }
+
+    ol,
+    ul {
+        padding-left: 0;
+    }
+
+    /* Phần about */
+    section {
+        width: auto;
+    }
+
+    /* Phần kĩ năng */
+    .job-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* phần giấy chứng nhận */
+    .cert-info {
+        flex-direction: column;
+    }
+
+    .cert-info li {
+        list-style-type: "-";
+    }
+
+    /* Phần project */
+    .projects {
+        grid-template-rows: auto;
+    }
+
+    .prjct-ad {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+
+    }
+
+    .prjct-ad- {
+        grid-column: 2 / -1;
+    }
+
+
+}
