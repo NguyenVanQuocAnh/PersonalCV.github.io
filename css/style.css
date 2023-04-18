@@ -89,7 +89,7 @@ header {
     height: 100vh;
 
 
-    background-image: url(/images/imgq.jpg), linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6));
+    background-image: url(https://github.com/NguyenVanQuocAnh/PersonalCV.github.io/blob/main/images/imgq.jpg?raw=true), linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6));
 
     background-position: center;
     background-size: cover;
